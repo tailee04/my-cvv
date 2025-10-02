@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar + tên */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007acc;
+  object-fit: cover;
+}
+
+.header h1 {
+  margin: 15px 0 5px 0;
+  font-size: 26px;
+  color: #333;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Section */
+section {
+  margin-bottom: 25px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  color: #007acc;
+}
+
+section p, section li {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+ul {
+  margin: 5px 0 0 20px;
+}
+
+/* Liên hệ */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Kỹ năng */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #eef6ff;
+  border: 1px solid #007acc;
+  color: #007acc;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
